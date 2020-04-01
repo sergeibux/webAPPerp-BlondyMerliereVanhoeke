@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 
+body{
+    background-color: #F9F9F9;
+}
+
 .title{
 	width: 90%;
 	text-align: center;
@@ -32,7 +36,6 @@
 	text-align: left;
     border-radius: 3px;
     font-size: medium;
-    padding: 8px;
     cursor: auto;
 }
 
@@ -40,4 +43,25 @@
     transition-duration : 0.5s;
     border-radius: 5px;
     font-style: normal;
+}
+
+button.btn{
+    box-shadow: -1px 1px 1px 1px;
+    border-radius: 5px;
+    font-size: large;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #FBFBFB;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    box-shadow: inset -1px 1px 2px -1px;
+    background-color: #DFDFDF;
+    color: blue;
+    font-weight: bolder;
+	transition-duration : 0.5s;
+    border-radius: 10px;
+    font-style: oblique;
 }
