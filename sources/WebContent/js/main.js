@@ -44,11 +44,12 @@ function getJSONContent() {
 
 
 $(document).ready(function(){
-	$("#mainTable").hide(100);
+	$("#mainTable").hide();
+	$("#mainTable").show(500);
 	$("#title").click(function(){
 		$("#mainTable").toggle("slow");
-		 getJSONContent();
 	});
+	getJSONContent();
 });
 
 
