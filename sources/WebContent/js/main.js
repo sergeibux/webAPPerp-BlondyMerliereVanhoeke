@@ -14,10 +14,26 @@ function showInters(jsonObj) {
     var buttons = document.createElement('div');
     buttons.classList.add('btn');
     
+    var btEdit = document.createElement('button');
+    btEdit.classList.add('btn');
+    btEdit.classList.add('edit');
+    btEdit.innerHTML = "Edition";
+    var btEdDet = document.createElement('button');
+    btEdDet.classList.add('btn');
+    btEdDet.classList.add('editDet');
+    btEdDet.innerHTML = "Edition détaillée";
+    var btSupp = document.createElement('button');
+    btSupp.classList.add('btn');
+    btSupp.classList.add('delete');
+    btSupp.innerHTML = "Suppression";
+    
     
     interTitle.textContent = inters[i].title;
         
  
+    buttons.appendChild(btEdit);
+    buttons.appendChild(btEdDet);
+    buttons.appendChild(btSupp);
 
     inter.appendChild(interTitle);
     inter.appendChild(buttons);
