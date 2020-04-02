@@ -31,7 +31,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	max-height: 70px;
+	max-height: 500px;
 	overflow: auto;
 	text-align: left;
     border-radius: 3px;
@@ -43,6 +43,14 @@ body{
     transition-duration : 0.5s;
     border-radius: 5px;
     font-style: normal;
+}
+
+.inter{
+	padding: 15px;
+}
+
+div.btn{
+	padding: 15px;
 }
 
 button.btn{
