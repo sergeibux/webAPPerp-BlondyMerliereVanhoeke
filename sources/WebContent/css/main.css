@@ -5,6 +5,16 @@ body{
     background-color: #F9F9F9;
 }
 
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: black;
+  height: 1px;
+}
+
 .title{
 	width: 90%;
 	text-align: center;
@@ -67,6 +77,11 @@ button.btn{
     margin-right: 5px;
     background-color: #FBFBFB;
     cursor: pointer;
+}
+
+div.controlButtons{
+    padding: 15px;
+    margin-left: 5%;
 }
 
 button.btn:hover {
