@@ -17,22 +17,16 @@
 					// titre intervention
 				</div>
 				<div class="btn">
-					<button class="btn">
+					<button class="btn" id="edit">
 						Édition
 					</button>
-					<button class="btn">
+					<button class="btn" id="quickEdit">
 						Édition détaillée
 					</button>
 				</div>
 			</div>
 		</div>
 	</body>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$("#mainTable").hide(100);
-			$("#title").click(function(){
-				$("#mainTable").toggle("slow");
-			});
-		});
-	</script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/edit.js"></script>
 </html>

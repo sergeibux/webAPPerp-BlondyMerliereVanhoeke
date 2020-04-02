@@ -61,7 +61,7 @@ button.btn:hover {
     background-color: #DFDFDF;
     color: blue;
     font-weight: bolder;
-	transition-duration : 0.5s;
+	transition-duration : 0.8s;
     border-radius: 10px;
     font-style: oblique;
 }
