@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<title>ERP -- webApp</title>
+	</head>
+	<body>
+		<div class="title" id="title">
+			Édition d'interventions
+		</div>
+		<div class="title table" id="mainTable">
+			<div class="inter">
+				<div class="interTitle" id="editableInterTitle">
+					Titre<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="inputTitle" type="text"></input><br><br>
+					Créé le<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="inputDate" type="text"></input><br><br>
+					Auteur<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="inputTicketAuthor" type="text"></input><br><br>
+					Technicien<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="inputTicketOp" type="text"></input><br><br>
+					Description<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea id="inputDescr" rows="15" cols="100"></textarea><br><br>
+					Date de prise en charge<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="inputOpenDate" type="text"></input><br><br>
+					Date de fermeture du ticket<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="inputCloseDate" type="text"></input><br><br>
+				</div>
+				<div class="btn">
+					<button class="btn" id="cancel">
+						Annuler
+					</button>
+					<button class="btn" id="valid">
+						Validation
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/edit.js"></script>
+</html>
