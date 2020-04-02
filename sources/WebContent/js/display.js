@@ -25,6 +25,7 @@ function showInters(jsonObj) {
     var btSupp = document.createElement('button');
     btSupp.classList.add('btn');
     btSupp.classList.add('delete');
+    btSupp.id = "del_" + inter.id;
     btSupp.innerHTML = "Suppression";
     
     
