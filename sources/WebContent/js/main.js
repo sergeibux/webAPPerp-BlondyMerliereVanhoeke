@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$("#title").click(function(){
 		$("#mainTable").toggle("slow");
 	});
-	getJSONContent();
+//	getJSONContent();
 });
 
 
